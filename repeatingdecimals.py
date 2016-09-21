@@ -3,6 +3,7 @@ d = int(input("Denominator: "))
 
 n = 9
 print(num / d)
+print(n % d)
 
 while n % d != 0 or n*10 % n != 0:
     n = 9 + 10*n 
