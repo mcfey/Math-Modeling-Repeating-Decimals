@@ -10,7 +10,7 @@ for x in list(range(1, 50)):
         break 
     for x in list(range(1, 50)):
         if (n*x*10) % d == 0:
-            n = 10*n
+            n = 10*x*n
             break
         else:
             n = 9 + 10*n
