@@ -2,4 +2,4 @@
 n = int(input("Numerator: "))
 d = int(input("Denominator: "))
 
-print(n//d)
+print(n%d)
