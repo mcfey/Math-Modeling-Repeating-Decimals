@@ -4,16 +4,13 @@ d = int(input("Denominator: "))
 n = 9
 print(num / d)
 
-#while n % d != 0:
-    #n = 9 + 10*n 
 
 for x in list(range(1, 50)):
     if n % d != 0:
         n = 9 + 10*n
     if n % d == 0:
         break 
-        
-    if n*10 % d == 0:
+    if (n*10) % d == 0:
         n = 10*n
         break
 
