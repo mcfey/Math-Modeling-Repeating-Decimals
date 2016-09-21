@@ -24,9 +24,9 @@ else:
 
 print(n)
 
-nstring = str(n)
+#nstring = str(n)
 
-nonrepeats = nstring.count(0)
+#nonrepeats = nstring.count(0)
 
 
 
