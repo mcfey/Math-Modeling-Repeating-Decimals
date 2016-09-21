@@ -14,8 +14,8 @@ else:
     n = 9
     for x in list(range(1, 50)):
         for x in list(range(1, 20)):
-            if (n* (10**x)) % d == 0:
-                n = (10**x)*n
+            if (n* (10*x)) % d == 0:
+                n = (10*x)*n
                 break
         else: 
             n = 9 + 10*n
