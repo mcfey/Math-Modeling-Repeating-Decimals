@@ -5,9 +5,9 @@ n = 9                               #set variable n = 9
 print(num / d)                      #print numerator / denominator
                 
 for a in list(range(1, 10)):
-    print(10**a*(num/d) % 1)
-    #Loop that run 10 times with a values 1-9
+    print(10**a*(num/d) % 1)        #Loop that run 10 times with a values 1-9
     if 10**a*(num/d) % 1 == 0:
+        n = 10**a
         break
    
 else:
