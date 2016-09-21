@@ -1,5 +1,7 @@
 
-n = int(input("Numerator: "))
+num = int(input("Numerator: "))
 d = int(input("Denominator: "))
 
-print(n%d)
+n = 9
+
+while d % 9 != 
