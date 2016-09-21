@@ -8,7 +8,10 @@ print(num / d)
     #n = 9 + 10*n 
 
 if d % n != 0 or d % n*10 != 0:
-    n = 9 + 10*9
+    for n in range(1, 50):
+        n = 9 + 10*9
+        if d % n == 0 or d % n*10 == 0:
+            end
 
 print(n)
 
