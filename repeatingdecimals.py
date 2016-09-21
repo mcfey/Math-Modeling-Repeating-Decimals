@@ -1,4 +1,4 @@
-numerator = int(input("Numerator: "))
+num = int(input("Numerator: "))
 d = int(input("Denominator: "))
 
 n = 9
@@ -6,5 +6,5 @@ n = 9
 while d % n != 0 or d % n*10 != 0:
     n = 9 + 10*n 
     
-print numerator / d
-print n
+print(num / d)
+print(n)
