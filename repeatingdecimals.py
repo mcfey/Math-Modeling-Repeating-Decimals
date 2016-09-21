@@ -27,10 +27,11 @@ for x in list(range(1, 50)):
 
 print(n)
 
-nstring = str(n)
-length = nstring.count(9)
+repeats = len(str(n))
 
-print("Repeating numbers: " + length )
+print( "Repeating numbers" + repeats)
+
+
 
 #once top part works, put number n into a list with all its digits
 #sort to tell how many zeros, how many nines
