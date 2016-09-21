@@ -1,8 +1,13 @@
-num = int(input("Numerator: "))
+num = int(input("Numerator: "))   
 d = int(input("Denominator: "))
 
-n = 9
-print(num / d)
+n = 9                               #set variable n = 9
+print(num / d)                      #print numerator / denominator
+                
+for a in list(range(1, 10)):        #Loop that run 10 times with a values 1-9
+    if 10**a*(num/d) % 1 == 0:
+        break
+        
 
 
 for x in list(range(1, 50)):
@@ -15,24 +20,15 @@ for x in list(range(1, 50)):
                 break
         else:
             n = 9 + 10*n
-#else:  
-    #n = 9
-    #for x in list(range(1, 50)):
-        #for x in list(range(1, 20)):
-            #if (n* (10*x)) % d == 0:
-                #n = (10*x)*n
-                #break
-        #else: 
-            #n = 9 + 10*n
+
 
 print(n)
 
-repeats = len(str(n))
+nstring = str(n)
 
-print( "Repeating numbers" + repeats)
+nonrepeats = nstring.count(0)
 
 
 
-#once top part works, put number n into a list with all its digits
-#sort to tell how many zeros, how many nines
-#will give number of repeating digits (# of nines), # of 0 = non repeating 
+
+ 
