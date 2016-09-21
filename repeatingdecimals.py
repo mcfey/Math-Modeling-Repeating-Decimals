@@ -25,7 +25,7 @@ else:
 print(n)
 
 nstring = str(n)
-nonrepeats = n.count(0)
+nonrepeats = nstring.count(0)
 repeats = nstring.count(9)
 
 Print("Nonrepeating decimals:" + nonrepeats)
