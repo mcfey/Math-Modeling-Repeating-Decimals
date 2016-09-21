@@ -1,11 +1,11 @@
 num = int(input("Numerator: "))   
 d = int(input("Denominator: "))
 
-n = 9                               #set variable n = 9
-print(num / d)                      #print numerator / denominator
+n = 9                               
+print(num / d)                      
                 
-for a in list(range(1, 10)):        #Loop that run 10 times with a values 1-9
-    if 10**a*(num/d) % 1 == 0:
+for a in list(range(1, 10)):        
+    if 10**a*(num/d) % 1 == 0:       
         n = 10**a
         break
    
@@ -24,9 +24,13 @@ else:
 
 print(n)
 
-#nstring = str(n)
+nstring = str(n)
+nonrepeats = nstring.count(0)
+repeats = nstring.count(9)
 
-#nonrepeats = nstring.count(0)
+Print("Nonrepeating decimals:" + nonrepeats)
+Print("Repeating decimals:" + repeats)
+
 
 
 
