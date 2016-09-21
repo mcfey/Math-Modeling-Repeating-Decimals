@@ -5,14 +5,18 @@ n = 9
 print(num / d)
 print(n % d)
 
-while n % d != 0:
-    n = 9 + 10*n 
+#while n % d != 0:
+    #n = 9 + 10*n 
 
-#if n % d != 0 or n % d*10 != 0:
-    #for x in range(1, 50):
-       # n = 9 + 10*9
-        #if n % d == 0:
-            #end
+if n % d != 0:
+    for x in list(range(1, 50)):
+        if n % d != 0:
+            n = 9 + 10*n
+        else:
+            end 
 
 print(n)
 
+#once top part works, put number n into a list with all its digits
+#sort to tell how many zeros, how many nines
+#will give number of repeating digits (# of nines), # of 0 = non repeating 
