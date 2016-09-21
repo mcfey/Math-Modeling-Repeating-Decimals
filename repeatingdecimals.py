@@ -11,8 +11,11 @@ if n % d != 0:
     for x in list(range(1, 50)):
         if n % d != 0:
             n = 9 + 10*n
-        else:
+        if n % d = 0:
             break 
+        
+        if n*10 % d = 0:
+            break
 
 print(n)
 
