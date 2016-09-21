@@ -27,7 +27,7 @@ for x in list(range(1, 50)):
 
 print(n)
 
-n = string(n)
+n = str(n)
 length = n.count(9)
 
 print("Repeating numbers: " + length )
