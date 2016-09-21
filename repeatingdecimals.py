@@ -8,7 +8,7 @@ print(num / d)
 for x in list(range(1, 50)):
     if n % d == 0:
         break 
-    for x in list(range(1, 50))
+    for x in list(range(1, 50)):
         if (n*x*10) % d == 0:
             n = 10*n
             break
