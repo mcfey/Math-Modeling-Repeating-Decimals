@@ -13,7 +13,7 @@ if n % d != 0:
         if n % d != 0:
             n = 9 + 10*n
         else:
-            end 
+            break 
 
 print(n)
 
